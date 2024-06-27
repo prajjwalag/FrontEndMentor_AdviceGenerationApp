@@ -60,6 +60,20 @@ button {
     position: relative;
     top: 0.5rem;
     left: 116px;
+    transition: 250ms ease-in-out;
+    transition-property: all;
+}
+
+button:hover {
+    box-shadow: 0 0 2em 0.5em  hsl(150, 53%, 54%);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
+}
+
+button:active {
+    box-shadow: 0 0 1em 0.3em  hsl(150, 53%, 54%);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
 }
 
 

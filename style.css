@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(218, 23%, 16%)
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 295px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 2.5rem; 
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;  
+}
+
+.card h1 {
+    font-family: "Manrope", sans-serif;
+    color: hsl(150, 100%, 66%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card p {
+    font-family: "Manrope", sans-serif;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.card > img {
+    margin: auto;
+}
+
+.card div {
+    position: absolute;
+    height: 0;
+    width: 100vb;
+    margin: auto;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5rem;
+    left: 116px;
+}
+
+
+.attribution 
+{ 
+    font-size: 14px;
+     text-align: center;
+    color: wheat; 
+}
+.attribution a { color: hsl(150, 100%, 66%); }
+
+@media (min-width: 560px) {
+    .card {
+        width: 444px;
+    }
+
+    .card > img {
+        content: url("images/pattern-divider-desktop.svg");
+    }
+
+    button {
+        left: 190px;
+    }
+}
